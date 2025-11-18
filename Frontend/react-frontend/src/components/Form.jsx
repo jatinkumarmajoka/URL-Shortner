@@ -115,7 +115,8 @@ export default function Form() {
         setisLoading(true);
 
         // Perform POST to "/insert" for the API to capture it
-        const response = await fetch("/insert", {
+        const response = await fetch("http://localhost:3000/insert", {
+
           method: "POST",
           headers: {
             "Content-Type": "application/json",
@@ -132,9 +133,10 @@ export default function Form() {
           setisLoading(false);
           setOpenModel(true);
           // If response = ok then set the final url state
-          setFinalURL(
-            "https://links.aryanranderiya.com/l/" + formData.shortURL
+          setFinalURL("http://localhost:3000/l/" + formData.shortURL
+            
           );
+
           // Set the final url text visible for the user to copy
         }
       } catch (error) {

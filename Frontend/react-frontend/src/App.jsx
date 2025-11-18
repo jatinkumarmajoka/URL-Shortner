@@ -10,7 +10,7 @@ function App() {
       <>
         <div className="subtitle flex flex-col gap-4">
           <a
-            href="https://github.com/aryanranderiya/URLShortener"
+            href="https://github.com/jatinkumarmajoka/URL-Shortner"
             target="_blank"
             rel="noreferrer"
           >
@@ -24,14 +24,14 @@ function App() {
             </Chip>
           </a>
 
-          <a href="https://aryanranderiya.com" className="subtitle_color">
+          <a href="https://github.com/jatinkumarmajoka" className="subtitle_color">
             <Chip
               color="primary"
               variant="bordered"
               radius="full"
               style={{ borderColor: "#00bbff", color: "#00bbff" }}
             >
-              Made with 🤍 by Aryan Randeriya
+              Made by Jatin
             </Chip>
           </a>
         </div>
@@ -40,26 +40,12 @@ function App() {
   };
 
   // Main Image of Website. Onclick will re-navigate to the website
-  const TitleImage = () => {
-    return (
-      <a
-        href="https://links.aryanranderiya.com"
-        className="w-screen flex justify-center"
-      >
-        <img
-          src="banner.png"
-          alt="Project Banner"
-          className="h-auto max-w-md px-6"
-        ></img>
-      </a>
-    );
-  };
+  
 
   return (
     <>
       <Analytics /> {/* Vercel Analytics */}
       <div className="h-screen w-screen flex flex-col justify-center items-center text-center dark text-foreground bg-background">
-        <TitleImage />
         <Form />
         <br></br>
         <BottomText />
