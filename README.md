@@ -2,7 +2,7 @@
 
 - Website that can convert any long link and generate a shorter link that redirects to it
 
-![App Screenshot](screenshots/homepage.png)
+![](screenshots/homepage.png)
 
 
 ## Features
