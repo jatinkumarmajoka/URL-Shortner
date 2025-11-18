@@ -2,9 +2,8 @@
 
 - Website that can convert any long link and generate a shorter link that redirects to it
 
-![](https://github.com/aryanranderiya/URLShortener/assets/64796509/82c2d02c-e34e-441b-9032-f0b5a0b3c491)
+![App Screenshot](screenshots/homepage.png)
 
-### [Try Here: links.aryanranderiya.com](https://links.aryanranderiya.com)
 
 ## Features
 
@@ -42,7 +41,7 @@ Before you begin, ensure you have met the following requirements:
 1.  **Clone the repository:**
 
     ```
-    git clone https://github.com/aryanranderiya/URLShortener.git
+    git clone https://github.com/jatinkumarmajoka/URL-Shortner.git
     ```
 
     ```
